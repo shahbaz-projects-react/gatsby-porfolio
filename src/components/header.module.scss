@@ -1,0 +1,52 @@
+.header {
+  padding: 1rem 3rem;
+  position: relative;
+}
+
+.box {
+  z-index: 10;
+  background-color: darkseagreen;
+  height: 6.2rem;
+  position: absolute;
+  width: 100%;
+  /*Web supports*/
+  -webkit-animation: fadeOut 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  -moz-animation: fadeOut 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  -o-animation: fadeOut 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation: fadeOut 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  height: 3rem;
+}
+@keyframes fadeOut {
+  0% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+.title {
+  color: burlywood;
+  font-size: 3rem;
+  text-decoration: none;
+  animation: fadeOut 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+}
+
+.header-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.list-item {
+  color: slateblue;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.active-list-item {
+  color: darkblue;
+}

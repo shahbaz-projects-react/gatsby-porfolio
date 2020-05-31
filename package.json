@@ -1,0 +1,44 @@
+{
+  "name": "shahbaz-portfolio-site",
+  "private": true,
+  "description": "A simplified portfolio site created using Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Shahbaz",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "env-cmd -f .env.development gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "gatsby": "^2.22.9",
+    "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-scroll-reveal": "0.0.7",
+    "gatsby-plugin-sharp": "^2.6.9",
+    "gatsby-remark-images": "^3.3.8",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-contentful": "^2.3.12",
+    "gatsby-source-filesystem": "^2.3.7",
+    "gatsby-transformer-remark": "^2.3.8",
+    "node-sass": "^4.14.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
